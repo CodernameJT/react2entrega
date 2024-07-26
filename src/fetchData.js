@@ -3,43 +3,43 @@ const productos = [
         id: 1,
         nombre: "Agua",
         precio: 10,
-        categoria: "Sin alcohol"
+        alcohol: false
     },
     {
         id: 2,
         nombre: "Jugo",
         precio: 12,
-        categoria: "Sin alcohol"
+        alcohol: false
     },
     {
         id: 3,
         nombre: "Cerveza",
         precio: 8,
-        categoria: "Con alcohol"
+        alcohol: true
     },
     {
         id: 4,
         nombre: "Gaseosa",
         precio: 5,
-        categoria: "Sin alcohol",
+        alcohol: false
     },
     {
         id: 5,
         nombre: "Vino",
         precio: 15,
-        categoria: "Con alcohol"
+        alcohol: true
     },
     {
         id: 6,
         nombre: "Champagne",
         precio: 35,
-        categoria: "Con alcohol"
+        alcohol: true
     },
     {
         id: 7,
         nombre: "Amargo",
         precio: 8,
-        categoria: "Sin alcohol"
+        alcohol: false
     },
 ];
 
