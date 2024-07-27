@@ -1,6 +1,6 @@
 import React from 'react'
 import ItemList from './ItemList';
-import Navbar from './Navbar';
+//import Navbar from './Navbar'; Nunca se llama, de momento no la borro pero no se necesitaría. 
 
 const ItemListContainer = ({ productos, filter }) => {
 
@@ -15,7 +15,7 @@ const ItemListContainer = ({ productos, filter }) => {
                     <p>Cargando...</p>
                     :
                     <>
-                    <h2 style={{padding: "2rem"}}>Bienvenidos a la tienda de bebidas sin alcohol con nombre de bebidas con alcohol</h2>
+                    <h2 style={{padding: "2rem"}}>Bienvenidos a la tienda de APU para bebidas online</h2>
                     <ItemList productos={filteredProductos} />
                     </>
             }

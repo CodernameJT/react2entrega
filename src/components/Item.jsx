@@ -9,7 +9,7 @@ const Item = ({ nombre, precio, id }) => {
             <h3 style={{ justifySelf: "center" }}>{nombre}</h3>
             <img className="img" src="https://img.freepik.com/fotos-premium/botella-vino-blanco-tapon-rojo-etiqueta_664601-8179.jpg" />
             <p>Precio: <b>${precio}</b></p>
-            <button>Agregar al carrito</button>
+            
             <Link to={`/detalle/${id}`}>
                 <button>Ver detalle</button>
             </Link>
@@ -17,4 +17,6 @@ const Item = ({ nombre, precio, id }) => {
     );
 };
 
+
 export default Item;
+// lo saque de lugar estaba abjo de Precio no lo necesito para la entrega <button>Agregar al carrito</button>
